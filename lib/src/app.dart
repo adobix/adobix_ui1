@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'features/intro/intro_screen.dart';
+import 'features/intro/intro_widget.dart';
 import 'features/splash_ui/screens/splash_screen.dart';
 import 'styles/styles.dart';
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         );
       },
       themeMode: ThemeMode.system,
-      home: const SplashScreen(),
+      home: const IntroScreen(),
     );
   }
 }
